@@ -1,0 +1,32 @@
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.none {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  font-size: 1.3rem;
+}
+
+.invalid {
+  color: red;
+  font-size: 1.3rem;
+}
+
+.instructions {
+  text-align: left;
+}

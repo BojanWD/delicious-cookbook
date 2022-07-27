@@ -1,0 +1,55 @@
+@import "vars.scss";
+
+.search-cont {
+  padding: 2rem;
+}
+
+.src-options {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-height: 12rem;
+  border: 2px;
+  border-style: solid;
+  overflow: hidden;
+  text-transform: capitalize;
+  border-radius: 5px;
+  margin-top: 0.1rem;
+  border-color: $base-blue;
+  overflow-y: auto;
+}
+
+.src-item:hover {
+  color: white;
+  background-color: $base-blue;
+  cursor: pointer;
+}
+
+.src-bar {
+  display: block;
+  margin-bottom: 0;
+  margin-top: 0.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border-color: black;
+}
+
+.src-bar:focus {
+  outline: none !important;
+  border-color: $base-blue;
+}
+
+.ingr-list {
+  margin: 0.3rem;
+
+  .ingredient {
+    margin: 0.2rem;
+    border-radius: 20px;
+
+    .remove {
+      font-size: 1.3rem;
+      margin-bottom: 0.1rem;
+    }
+  }
+}

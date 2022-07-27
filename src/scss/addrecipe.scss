@@ -1,0 +1,21 @@
+@import "vars";
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem !important;
+}
+
+.none {
+  display: none;
+}
+
+.asterisk {
+  color: red;
+  opacity: 0.8;
+  font-size: 0.6rem;
+}
+
+.block {
+  display: block;
+}

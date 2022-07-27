@@ -1,0 +1,58 @@
+.upper-col {
+  margin-bottom: 1rem;
+}
+
+.recipe-name {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.img-holder {
+  width: min(90%, 30rem);
+  margin: 0 auto;
+
+  img {
+    width: 100%;
+  }
+
+  .tag-list {
+    padding: 0.5rem;
+    text-align: center;
+
+    .tag {
+      margin: 0.2rem;
+      border-radius: 20px;
+      cursor: default !important;
+    }
+  }
+}
+
+.instructions {
+  width: 100%;
+  text-align: center;
+
+  p {
+    width: 70ch;
+    margin: 0 auto;
+    text-align: justify;
+  }
+}
+
+.flex-c {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 985px) {
+  .instructions {
+    width: 100%;
+    padding: 1rem;
+
+    p {
+      width: 100%;
+      text-align: justify;
+    }
+  }
+}

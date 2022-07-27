@@ -1,0 +1,37 @@
+.reset {
+  cursor: pointer;
+}
+
+.reset:hover {
+  color: red !important;
+}
+
+.no-p {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.custom-link {
+  color: white;
+  opacity: 0.5;
+}
+
+.custom-link:hover {
+  color: white;
+  opacity: 0.7;
+}
+
+.profile-icon {
+  font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 975px) {
+  .justify-content-end {
+    align-items: flex-start;
+  }
+
+  .no-p {
+    padding-left: 0;
+    margin-left: 0;
+  }
+}

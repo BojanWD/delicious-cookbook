@@ -1,5 +1,0 @@
-create edit and delete functionality;
-create add functionality;
-create login functionality;
-present categories in a sidebar;
-create search by ingredients (maybe by name too);
